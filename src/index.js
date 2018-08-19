@@ -1,6 +1,4 @@
-import uri from 'url';
 import { OAuth2Strategy, InternalOAuthError } from 'passport-oauth';
-import jwt from 'jsonwebtoken';
 /**
  * `LineTokenStrategy` constructor.
  *

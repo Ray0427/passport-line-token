@@ -3,7 +3,7 @@ Passport strategy for authenticating with Line access tokens using the OAuth 2.0
 Based on [Line Social API v2.1](https://developers.line.me/en/docs/social-api/)
 ## Installation
 
-    $ npm install passport-line-token
+    $ npm install --save passport-line-token
 
 ## Usage
 ### Configure Strategy
@@ -20,6 +20,8 @@ passport.use(new LineTokenStrategy({
   }
 ));
 ```
+
+### Authenticate Requests
 
 Use `passport.authenticate()`, specifying the `'line-token'` strategy, to authenticate requests.
 

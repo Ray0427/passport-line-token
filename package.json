@@ -4,6 +4,7 @@
   "description": "Line token authentication strategy for Passport",
   "main": "lib/index.js",
   "scripts": {
+    "compile": "babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/Ray0427/passport-line-token/issues"
   },
-  "homepage": "https://github.com/Ray0427/passport-line-token#readme"
+  "homepage": "https://github.com/Ray0427/passport-line-token#readme",
+  "dependencies": {
+    "passport-oauth": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.7.0"
+  }
 }

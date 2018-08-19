@@ -1,0 +1,25 @@
+{
+  "name": "passport-line-token",
+  "version": "0.0.1",
+  "description": "Line token authentication strategy for Passport",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray0427/passport-line-token.git"
+  },
+  "keywords": [
+    "passport",
+    "line",
+    "auth",
+    "oauth2"
+  ],
+  "author": "Ray Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ray0427/passport-line-token/issues"
+  },
+  "homepage": "https://github.com/Ray0427/passport-line-token#readme"
+}

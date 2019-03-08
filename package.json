@@ -1,6 +1,6 @@
 {
   "name": "passport-line-token",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Line token authentication strategy for Passport",
   "main": "lib/index.js",
   "scripts": {
